@@ -15,4 +15,4 @@ while (numComp !== numUser){
   }
   alert(`Вітаю! Ви вгадали з ${i} спроби.`);
 }
-else {numUser =prompt("Введіть число потрібного діапазону.")}
+else {numUser =+prompt("Введіть число потрібного діапазону.")}
