@@ -6,7 +6,7 @@ console.log(numComp);
 let numUser = parseInt(prompt("Вгадайте загадане мною число від 0 до 100..."));
 if (!isNaN(numUser) || numUser <= 100 || numUser >= 0 ){
 while (numComp !== numUser){
-  i++;
+  i++; //Рахує кількість спроб;
   if( numComp < numUser){
     numUser = +prompt("Введене Вами число більше за те, що я загадав. Спробуйте ще...");
   }
