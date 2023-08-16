@@ -9,9 +9,9 @@ while (userConfirm) {
   );
 
   while (numUser !== null) {
-    console.log(`Компьютер: ${numComp}, Користувач: ${numUser}`); //Введені значення
     if (!isNaN(numUser) && numUser >= 0 && numUser <= 100) {
       while (numComp !== numUser) {
+        console.log(`Компьютер: ${numComp}, Користувач: ${numUser}`); //Введені значення
         i++;
         if (numComp < numUser) {
           numUser = +prompt(
